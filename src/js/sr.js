@@ -18,7 +18,7 @@ export default function() {
   );
 
   /* Hero Section */
-  ScrollReveal().reveal('.hero-title', 
+  ScrollReveal().reveal('.title-name', 
     assignProps(
       { 
         delay: 500, 
@@ -26,7 +26,7 @@ export default function() {
       }, defaultProps)
   );
   
-  ScrollReveal().reveal('.hero-cta', 
+  ScrollReveal().reveal('.template-cta', 
     assignProps(
       {
         delay: 1000, 

@@ -25,7 +25,7 @@
     padding: 0rem $default-font-size;
   }
 
-  .hero-title {
+  .title-name {
     font-size: 5.6rem;
     font-weight: 700;
     margin-bottom: 3.2rem;
@@ -47,7 +47,7 @@
     }
   }
 
-  .hero-cta {
+  .template-cta {
     display: flex;
 
     @include respond(tab-port) {
